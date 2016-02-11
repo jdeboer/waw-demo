@@ -26,7 +26,7 @@ devtools::install_github("skardhamar/rga")
 library(rga)
 
 # To saves lots of retyping, let's define some parameters we'll be using.
-user_name <- "johann@lovesdata.com"
+user_name <- "you@domain.com"
 client_id <- "144394141628-8m5i5icva7akegi3tp6215d9eg9o5cln.apps.googleusercontent.com"
 client_secret <- "wlFmhluHqTdZw6UG22h5A2nr"
 view_id <- "ga:106134121"

@@ -315,7 +315,8 @@ data <- data %>%
   group_by(from, to) %>%
   summarise(transitioned = users / benchmark)
 
-ibrary(ggplot2, scales)
+library(ggplot2)
+library(scales)
 
 ggplot(data) + 
   aes(x = from, y = to, fill = transitioned) +
